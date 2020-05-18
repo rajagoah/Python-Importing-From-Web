@@ -11,6 +11,8 @@ url = 'https://s3.amazonaws.com/assets.datacamp.com/production/course_1606/datas
 urlretrieve(url, 'winequality-red.csv')
 
 #using the pandas read_Csv function to read the csv file and convert the data in it to dataframe
-df = pd.read_csv('winequality-red.csv')
+df = pd.read_csv('winequality-red.csv',';')
 
 print(df)
+
+pd.read_csv()
