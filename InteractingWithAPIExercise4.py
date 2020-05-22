@@ -12,4 +12,6 @@ json_data = r.json()
 #printing
 for i in json_data.keys():
     print(i)
-    print(json_data['query'])
+
+print(json_data['query'].keys())
+print(json_data['query']['pages']['24768']['extract'])
